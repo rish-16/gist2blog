@@ -1,5 +1,5 @@
 # DiGist
-**DiGist** (pronounced "digest") is a web platform that helps you to collate your best Gists together in blog format.
+**DiGist** (pronounced "digest") is a web platform that helps you to collate your best Gists together in categorical blog format.
 
 ## Why
 During CS classes in college, I love to create notes using Gists – it's super elegant and easy to set up. The issue? The Gists are everywhere and are unorganised amidst unrelated Gists, especially during revision time. What I wish I had back then was a tool that allowed me to pool Gists of choice together in one place – like a flipbook, of sorts. 

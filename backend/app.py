@@ -9,10 +9,18 @@ gh_api_url = "https://api.github.com/gists/"
 def hello_world():
     return 'Hello, World! Welcome to DiGist – a platform that blog-ifies your GitHub Gists.'
     
-@app.route('/retrieve/<post_id>')
-def get_post_content(post_id):
-    gist_url = gh_api_url + post_id
-    print (gist_url)
+@app.route('/retrieve/<git_url>')
+def get_post_content(git_url):
+    
+    # extracting post ID from Gist URL
+    """
+    inputs: "https://gist.github.com/rish-16/959865cac059c9a46881cdc95a24bfc0"
+    output: "959865cac059c9a46881cdc95a24bfc0"
+    """
+    def get_gist_id(url):
+        return url.split("/")[-1]
+        
+    gist_url = gh_api_url + get_gist_id(git_url)
     content = requests.get(gist_url)
     content = content.json()
     post_title = list(content["files"].keys())[0]
