@@ -11,14 +11,14 @@ After collation, I could read my notes like any other blog or online textbook, m
 ## Usage Instructions
 *DiGist* isn't only for CS nerds taking notes – it's for everyone with something to say. GitHub Gists provides support for markdown (what blogs are typically written with) and a boatload of programming languages. This makes it a really versatile blogging platform; it has zero set up issues and all you need to do is visit the [Gist website](http://gist.github.com).
 
-### 1. Creating a new blog
+### Creating a new blog
 1. Collate a bunch of public Gists
 2. Visit [digist.netlify.io](digist.netlify.io)
 3. Upload your Gist links sequentially
 4. Click "Create Blog" and give it an appropriate title and description
 5. Share your blog with `digist.netlify.io/<gh-username>/<blog-title>`!
 
-### 2. Adding to an existing blog
+### Adding to an existing blog
 1. Create a public Gist
 2. Visit `digist.netlify.io/<gh-username>/<blog-title>`
 3. Click "New Post" and upload the Gist link
